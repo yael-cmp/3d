@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100%;
+  min-height: fit-content;
+  margin: 0;
+}
+canvas {
+  width: 100% !important;
+  /* height: 100% !important; */
+}
+#landing3d {
+  position: absolute;
+  z-index: 0;
+  min-height: 700px;
+  height: 100vh;
+  width: 100%;
+}
+.text {
+  font-family: 'Quicksand', sans-serif;
+  padding: 1rem;
+  z-index: 2;
+  color: white;
+  position: absolute;
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 120%;
+}
+h1{
+  font-size: 300%;
+  margin-bottom: 0;
+  /* width: fit-content; */
+  color: black;
+  background-color: white;
+}
+h1, p{
+  padding: 9px;
+  font-weight: 400;
+}
+button{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0 9px;
+  height: 3rem;
+  align-content: center;
+  width: 200px;
+  background: transparent;
+  color: white;
+  border: white solid 2px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: medium;
+}
+button:hover{
+  color: black;
+  background: white;
+}
+.container {
+  min-height: 700px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
