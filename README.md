@@ -1,4 +1,5 @@
-# 3dlanding
+# 3d landing page :D
+# https://stars-eta.vercel.app/
 es solo un proyecto simple practicando aimaciones 3D
 hacemos una landins page usando **three.js**
 
